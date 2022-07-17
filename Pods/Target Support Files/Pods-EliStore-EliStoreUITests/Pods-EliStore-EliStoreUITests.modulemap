@@ -1,0 +1,6 @@
+framework module Pods_EliStore_EliStoreUITests {
+  umbrella header "Pods-EliStore-EliStoreUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

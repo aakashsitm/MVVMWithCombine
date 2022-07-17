@@ -1,0 +1,35 @@
+
+{
+  "products": [
+    {
+      "name": "iPhone 13 Pro Max",
+      "image": "iphone13ProMax.png",
+      "price": "180000$",
+      "quantity": 1
+    },
+    {
+      "name": "iPad",
+      "image": "iPad.png",
+      "price": "75000$",
+      "quantity": 1
+    },
+    {
+      "name": "iMac",
+      "image": "imac.png",
+      "price": "110000$",
+      "quantity": 1
+    },
+    {
+      "name": "MacBook",
+      "image": "macbook.png",
+      "price": "150000$",
+      "quantity": 1
+    },
+    {
+      "name": "Mac Mini",
+      "image": "macmini.png",
+      "price": "130000$",
+      "quantity": 1
+    }
+    ]
+}

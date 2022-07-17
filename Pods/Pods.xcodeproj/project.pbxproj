@@ -1,0 +1,978 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060F9645D6683AFBC807ADD5AAD62057 /* Pods-EliStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274FE850D1FB151FFA9811EEA70F0A6D /* Pods-EliStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16C212AE6C1962E6819A141F60D916AE /* XCTest+Mocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB2E13D968B6F95E7B3298D5466080 /* XCTest+Mocker.swift */; };
+		28CEB36551A181DF457C93FFB18E7381 /* Mocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC2FA9CF45904706A6D7C69716CAB15 /* Mocker-dummy.m */; };
+		305573AD3C7BD234CEB7729928793C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5603A64A17EB4C40D9E4032BDC6D9E1F /* Pods-EliStore-EliStoreUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE86D5565F84D947E2E830EB5DF3EDE /* Pods-EliStore-EliStoreUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584C365918697B8C91DDF6BBCB1B1AAE /* Pods-EliStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 825010FB5358EE34800AA806CB88323B /* Pods-EliStore-dummy.m */; };
+		58814DAAA817340DDE6940745DFA6FEF /* Mocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39C663AE45FD9C39EC394CBD2FD3E9D /* Mocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC041734DD7411FA6101B04E555CD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F6D75947BB42216FD3F358A3EF218FF /* MockingURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04FA72B9124DBDAE621F08CC48F9D5 /* MockingURLProtocol.swift */; };
+		7560E0CE0D77ADB2018A36C73E8B21A4 /* Pods-EliStoreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB7F980D04461CB9445D95F527EB943 /* Pods-EliStoreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76814AA058958109184702F52CD0B89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		792FB48ED17E4DA4F6D8264A1F154F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A9303B325DCEAA53E0BE1C17B74E9AD1 /* Mocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E431243C5EA8240DAD900DC261B82E /* Mocker.swift */; };
+		EDBFB59F27EBE82C452CAEC3C725AF01 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C8A45C7931281AD3989219E99651A /* Mock.swift */; };
+		EF422B09AC7E649E986D2FFE54821468 /* Pods-EliStore-EliStoreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7FBD5E01A3E463EB38E90639E31A2B /* Pods-EliStore-EliStoreUITests-dummy.m */; };
+		FF7A1DB0F095F988FC49409CD68AE5CD /* Pods-EliStoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A4F88C9AFA5FFF636E58BACFBD367 /* Pods-EliStoreTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459DFE83242AD80CBE3446048D2C77A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFC708359363290935C681A1CE226D;
+			remoteInfo = Mocker;
+		};
+		B82BB3013C619318463704FD6820F8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFC708359363290935C681A1CE226D;
+			remoteInfo = Mocker;
+		};
+		E618A1D7D39E39D04172B7BE95AC945B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285FD98F10B4826BCFCFC90A7281AE34;
+			remoteInfo = "Pods-EliStore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0A4F88C9AFA5FFF636E58BACFBD367 /* Pods-EliStoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliStoreTests-dummy.m"; sourceTree = "<group>"; };
+		14394A8ACA13C8D513362AC6F9757136 /* Pods-EliStoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliStoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		16984560E9D44A8CE6CA4FC020685A97 /* Pods-EliStore-EliStoreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliStore-EliStoreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D4AE396CC91228FE660B84E90FBD20A /* Mocker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mocker; path = Mocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DF72E6C8EF14536A1D8F4EFF55EA00 /* Pods-EliStore-EliStoreUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EliStore-EliStoreUITests.modulemap"; sourceTree = "<group>"; };
+		274FE850D1FB151FFA9811EEA70F0A6D /* Pods-EliStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliStore-umbrella.h"; sourceTree = "<group>"; };
+		3219497AFEF46247575A2DE72509FA1E /* Pods-EliStoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliStoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A0EA6FFE3AF9DC900060F75CC336E0C /* Pods-EliStore-EliStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliStore-EliStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A15BE38B78E4F169EA838565D832656 /* Mocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mocker.release.xcconfig; sourceTree = "<group>"; };
+		3F04FA72B9124DBDAE621F08CC48F9D5 /* MockingURLProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockingURLProtocol.swift; path = Sources/MockingURLProtocol.swift; sourceTree = "<group>"; };
+		5395943AACF915D332164BBB7FA00A3A /* Pods-EliStore-EliStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliStore-EliStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		593263179E0742601AA3DD0F1BBE0B4A /* Pods-EliStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliStore.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB7F980D04461CB9445D95F527EB943 /* Pods-EliStoreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliStoreTests-umbrella.h"; sourceTree = "<group>"; };
+		649DE60156E6A0F7D9E649F2E856AC8A /* Pods-EliStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B8D4BF25FE700335F32C7B81AB205D /* Pods-EliStoreTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliStoreTests-Info.plist"; sourceTree = "<group>"; };
+		6F0C8A45C7931281AD3989219E99651A /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/Mock.swift; sourceTree = "<group>"; };
+		701C9E956F489DA35A61D2D27AFD1230 /* Pods-EliStore-EliStoreUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EliStore-EliStoreUITests"; path = Pods_EliStore_EliStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73F5387F65ACB077CF65FA314C1DC7CC /* Pods-EliStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliStore.release.xcconfig"; sourceTree = "<group>"; };
+		73F9B5B5F31E2776D24F05ECF78459ED /* Mocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mocker-Info.plist"; sourceTree = "<group>"; };
+		7C0F57CD92FF16331F5FA24DF630FF33 /* Pods-EliStoreTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EliStoreTests"; path = Pods_EliStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7FBD5E01A3E463EB38E90639E31A2B /* Pods-EliStore-EliStoreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliStore-EliStoreUITests-dummy.m"; sourceTree = "<group>"; };
+		825010FB5358EE34800AA806CB88323B /* Pods-EliStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EliStore-dummy.m"; sourceTree = "<group>"; };
+		8EE86D5565F84D947E2E830EB5DF3EDE /* Pods-EliStore-EliStoreUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EliStore-EliStoreUITests-umbrella.h"; sourceTree = "<group>"; };
+		8F423F0AF85E90D775B129E3DC0AEEAB /* Mocker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mocker-prefix.pch"; sourceTree = "<group>"; };
+		908EAD7DC74D187CB9B14B8AC403E822 /* Pods-EliStoreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EliStoreTests.modulemap"; sourceTree = "<group>"; };
+		96156450F42D4F4BAD9EFE3302889B06 /* Pods-EliStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliStore-Info.plist"; sourceTree = "<group>"; };
+		9A8112185A9DF667345DBD1319E38AF9 /* Mocker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mocker.modulemap; sourceTree = "<group>"; };
+		9CC2FA9CF45904706A6D7C69716CAB15 /* Mocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mocker-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2F26454BD2790591C0F8206D34E198C /* Pods-EliStore-EliStoreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliStore-EliStoreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A33EC1FBC3907CE0CF501D3CE31B9826 /* Pods-EliStore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EliStore"; path = Pods_EliStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADB2E13D968B6F95E7B3298D5466080 /* XCTest+Mocker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTest+Mocker.swift"; path = "Sources/XCTest+Mocker.swift"; sourceTree = "<group>"; };
+		B39C663AE45FD9C39EC394CBD2FD3E9D /* Mocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mocker-umbrella.h"; sourceTree = "<group>"; };
+		C0E431243C5EA8240DAD900DC261B82E /* Mocker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mocker.swift; path = Sources/Mocker.swift; sourceTree = "<group>"; };
+		C944355E23D74CC466BC6E3E681A8436 /* Mocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mocker.debug.xcconfig; sourceTree = "<group>"; };
+		D363C8950338945C8E26F4FC863E9FE1 /* Pods-EliStore-EliStoreUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliStore-EliStoreUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E589B7D9776AD93B7C610431AB38793F /* Pods-EliStore-EliStoreUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliStore-EliStoreUITests-Info.plist"; sourceTree = "<group>"; };
+		E5A4CE4E700E81F3416D978EE3C987B8 /* Pods-EliStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EliStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFB5BEA32D0ED1704961744DED7F94AF /* Pods-EliStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EliStore.modulemap"; sourceTree = "<group>"; };
+		F2698D7A7BBB68BD71D7B733CD1FEDBA /* Pods-EliStore-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EliStore-frameworks.sh"; sourceTree = "<group>"; };
+		FCAEFD9C3E0C49CB59D87F2EEA00EB89 /* Pods-EliStore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EliStore-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDE3DEEFB657CF369B4C5AA4CB398A66 /* Pods-EliStore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EliStore-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214BFDA4ED10BB65DB85C774364AFAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76814AA058958109184702F52CD0B89E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D623A2BF57ECEA823552EA889C374F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792FB48ED17E4DA4F6D8264A1F154F09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B96D6B23DBB7CEB12B422626F5451CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305573AD3C7BD234CEB7729928793C33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40391ACEB428FB0F6B30CDFB969CFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC041734DD7411FA6101B04E555CD6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153457D2F7FB28019FA429E9E501CC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4AE396CC91228FE660B84E90FBD20A /* Mocker */,
+				A33EC1FBC3907CE0CF501D3CE31B9826 /* Pods-EliStore */,
+				701C9E956F489DA35A61D2D27AFD1230 /* Pods-EliStore-EliStoreUITests */,
+				7C0F57CD92FF16331F5FA24DF630FF33 /* Pods-EliStoreTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C3EB1C189206C41D8D7F568D558BC0 /* Pods-EliStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				908EAD7DC74D187CB9B14B8AC403E822 /* Pods-EliStoreTests.modulemap */,
+				3219497AFEF46247575A2DE72509FA1E /* Pods-EliStoreTests-acknowledgements.markdown */,
+				14394A8ACA13C8D513362AC6F9757136 /* Pods-EliStoreTests-acknowledgements.plist */,
+				0F0A4F88C9AFA5FFF636E58BACFBD367 /* Pods-EliStoreTests-dummy.m */,
+				68B8D4BF25FE700335F32C7B81AB205D /* Pods-EliStoreTests-Info.plist */,
+				5DB7F980D04461CB9445D95F527EB943 /* Pods-EliStoreTests-umbrella.h */,
+				649DE60156E6A0F7D9E649F2E856AC8A /* Pods-EliStoreTests.debug.xcconfig */,
+				E5A4CE4E700E81F3416D978EE3C987B8 /* Pods-EliStoreTests.release.xcconfig */,
+			);
+			name = "Pods-EliStoreTests";
+			path = "Target Support Files/Pods-EliStoreTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A57B171578B49572F7BE29B4555B8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B0748C73769A8A0F0EE0623FE7C29 /* Mocker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F8B0748C73769A8A0F0EE0623FE7C29 /* Mocker */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C8A45C7931281AD3989219E99651A /* Mock.swift */,
+				C0E431243C5EA8240DAD900DC261B82E /* Mocker.swift */,
+				3F04FA72B9124DBDAE621F08CC48F9D5 /* MockingURLProtocol.swift */,
+				AADB2E13D968B6F95E7B3298D5466080 /* XCTest+Mocker.swift */,
+				CDB54B44EDB3DE9B2F8DC2325DC1E333 /* Support Files */,
+			);
+			name = Mocker;
+			path = Mocker;
+			sourceTree = "<group>";
+		};
+		A3373529E26D5FC10B1DE0E302FA508A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D78AC25A4B1FEFC5DF674DD397F6DE /* Pods-EliStore */,
+				CFE03203D7BA0550BDBB70F5DEEBC435 /* Pods-EliStore-EliStoreUITests */,
+				21C3EB1C189206C41D8D7F568D558BC0 /* Pods-EliStoreTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDB54B44EDB3DE9B2F8DC2325DC1E333 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8112185A9DF667345DBD1319E38AF9 /* Mocker.modulemap */,
+				9CC2FA9CF45904706A6D7C69716CAB15 /* Mocker-dummy.m */,
+				73F9B5B5F31E2776D24F05ECF78459ED /* Mocker-Info.plist */,
+				8F423F0AF85E90D775B129E3DC0AEEAB /* Mocker-prefix.pch */,
+				B39C663AE45FD9C39EC394CBD2FD3E9D /* Mocker-umbrella.h */,
+				C944355E23D74CC466BC6E3E681A8436 /* Mocker.debug.xcconfig */,
+				3A15BE38B78E4F169EA838565D832656 /* Mocker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mocker";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9A57B171578B49572F7BE29B4555B8B4 /* Pods */,
+				153457D2F7FB28019FA429E9E501CC24 /* Products */,
+				A3373529E26D5FC10B1DE0E302FA508A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE03203D7BA0550BDBB70F5DEEBC435 /* Pods-EliStore-EliStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21DF72E6C8EF14536A1D8F4EFF55EA00 /* Pods-EliStore-EliStoreUITests.modulemap */,
+				16984560E9D44A8CE6CA4FC020685A97 /* Pods-EliStore-EliStoreUITests-acknowledgements.markdown */,
+				A2F26454BD2790591C0F8206D34E198C /* Pods-EliStore-EliStoreUITests-acknowledgements.plist */,
+				7F7FBD5E01A3E463EB38E90639E31A2B /* Pods-EliStore-EliStoreUITests-dummy.m */,
+				D363C8950338945C8E26F4FC863E9FE1 /* Pods-EliStore-EliStoreUITests-frameworks.sh */,
+				E589B7D9776AD93B7C610431AB38793F /* Pods-EliStore-EliStoreUITests-Info.plist */,
+				8EE86D5565F84D947E2E830EB5DF3EDE /* Pods-EliStore-EliStoreUITests-umbrella.h */,
+				3A0EA6FFE3AF9DC900060F75CC336E0C /* Pods-EliStore-EliStoreUITests.debug.xcconfig */,
+				5395943AACF915D332164BBB7FA00A3A /* Pods-EliStore-EliStoreUITests.release.xcconfig */,
+			);
+			name = "Pods-EliStore-EliStoreUITests";
+			path = "Target Support Files/Pods-EliStore-EliStoreUITests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3D78AC25A4B1FEFC5DF674DD397F6DE /* Pods-EliStore */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5BEA32D0ED1704961744DED7F94AF /* Pods-EliStore.modulemap */,
+				FDE3DEEFB657CF369B4C5AA4CB398A66 /* Pods-EliStore-acknowledgements.markdown */,
+				FCAEFD9C3E0C49CB59D87F2EEA00EB89 /* Pods-EliStore-acknowledgements.plist */,
+				825010FB5358EE34800AA806CB88323B /* Pods-EliStore-dummy.m */,
+				F2698D7A7BBB68BD71D7B733CD1FEDBA /* Pods-EliStore-frameworks.sh */,
+				96156450F42D4F4BAD9EFE3302889B06 /* Pods-EliStore-Info.plist */,
+				274FE850D1FB151FFA9811EEA70F0A6D /* Pods-EliStore-umbrella.h */,
+				593263179E0742601AA3DD0F1BBE0B4A /* Pods-EliStore.debug.xcconfig */,
+				73F5387F65ACB077CF65FA314C1DC7CC /* Pods-EliStore.release.xcconfig */,
+			);
+			name = "Pods-EliStore";
+			path = "Target Support Files/Pods-EliStore";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C548A72A9CD9E780844F34139C82447 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060F9645D6683AFBC807ADD5AAD62057 /* Pods-EliStore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D73AB00D0A53A092CE164BA947A87DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7560E0CE0D77ADB2018A36C73E8B21A4 /* Pods-EliStoreTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5AB1D81669FF096E37D55B3C063EA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5603A64A17EB4C40D9E4032BDC6D9E1F /* Pods-EliStore-EliStoreUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CBDD8B4868A45D0EA9184295B08B8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58814DAAA817340DDE6940745DFA6FEF /* Mocker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04AFC708359363290935C681A1CE226D /* Mocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8359028EE17557014B28BC1899BACC2A /* Build configuration list for PBXNativeTarget "Mocker" */;
+			buildPhases = (
+				70CBDD8B4868A45D0EA9184295B08B8C /* Headers */,
+				F93004551F5DEA33606E7C6F1BB2692E /* Sources */,
+				214BFDA4ED10BB65DB85C774364AFAB6 /* Frameworks */,
+				E39635A51B891ECBC2A64AF86DAC9718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mocker;
+			productName = Mocker;
+			productReference = 1D4AE396CC91228FE660B84E90FBD20A /* Mocker */;
+			productType = "com.apple.product-type.framework";
+		};
+		285FD98F10B4826BCFCFC90A7281AE34 /* Pods-EliStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76735CC5CAC3BF664111A02587CA234B /* Build configuration list for PBXNativeTarget "Pods-EliStore" */;
+			buildPhases = (
+				0C548A72A9CD9E780844F34139C82447 /* Headers */,
+				89F6BD8A4794941BF973BC855692B85C /* Sources */,
+				6B96D6B23DBB7CEB12B422626F5451CA /* Frameworks */,
+				67995D6BA871111D226DEA0518B6E947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1542BFFDB97400FB186A710326CF28BF /* PBXTargetDependency */,
+			);
+			name = "Pods-EliStore";
+			productName = Pods_EliStore;
+			productReference = A33EC1FBC3907CE0CF501D3CE31B9826 /* Pods-EliStore */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7DA815D24411DDEBF2D6E1BF95DC30D /* Pods-EliStore-EliStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51982799162A39569932DC13305E5AEB /* Build configuration list for PBXNativeTarget "Pods-EliStore-EliStoreUITests" */;
+			buildPhases = (
+				4A5AB1D81669FF096E37D55B3C063EA1 /* Headers */,
+				3C4E0FDE2F9AEC31B1069B008F965CA5 /* Sources */,
+				C40391ACEB428FB0F6B30CDFB969CFA8 /* Frameworks */,
+				467C92B744FC4B6097E137714EF17CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98BB8F523BBAEFA970E4D1986F08228 /* PBXTargetDependency */,
+			);
+			name = "Pods-EliStore-EliStoreUITests";
+			productName = Pods_EliStore_EliStoreUITests;
+			productReference = 701C9E956F489DA35A61D2D27AFD1230 /* Pods-EliStore-EliStoreUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D86676305FB839B16182043F133C4A0F /* Pods-EliStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2CA30C4467D88A61D2B427F7EF2A95 /* Build configuration list for PBXNativeTarget "Pods-EliStoreTests" */;
+			buildPhases = (
+				1D73AB00D0A53A092CE164BA947A87DA /* Headers */,
+				35F801D845BB716C1DF1482B140F90C0 /* Sources */,
+				3D623A2BF57ECEA823552EA889C374F3 /* Frameworks */,
+				AF002811B8983014E8C22F5836209B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF994C5FE939DD288E1C655DBFE01159 /* PBXTargetDependency */,
+			);
+			name = "Pods-EliStoreTests";
+			productName = Pods_EliStoreTests;
+			productReference = 7C0F57CD92FF16331F5FA24DF630FF33 /* Pods-EliStoreTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 153457D2F7FB28019FA429E9E501CC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AFC708359363290935C681A1CE226D /* Mocker */,
+				285FD98F10B4826BCFCFC90A7281AE34 /* Pods-EliStore */,
+				A7DA815D24411DDEBF2D6E1BF95DC30D /* Pods-EliStore-EliStoreUITests */,
+				D86676305FB839B16182043F133C4A0F /* Pods-EliStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467C92B744FC4B6097E137714EF17CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67995D6BA871111D226DEA0518B6E947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF002811B8983014E8C22F5836209B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39635A51B891ECBC2A64AF86DAC9718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35F801D845BB716C1DF1482B140F90C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A1DB0F095F988FC49409CD68AE5CD /* Pods-EliStoreTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4E0FDE2F9AEC31B1069B008F965CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF422B09AC7E649E986D2FFE54821468 /* Pods-EliStore-EliStoreUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F6BD8A4794941BF973BC855692B85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584C365918697B8C91DDF6BBCB1B1AAE /* Pods-EliStore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93004551F5DEA33606E7C6F1BB2692E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBFB59F27EBE82C452CAEC3C725AF01 /* Mock.swift in Sources */,
+				A9303B325DCEAA53E0BE1C17B74E9AD1 /* Mocker.swift in Sources */,
+				28CEB36551A181DF457C93FFB18E7381 /* Mocker-dummy.m in Sources */,
+				6F6D75947BB42216FD3F358A3EF218FF /* MockingURLProtocol.swift in Sources */,
+				16C212AE6C1962E6819A141F60D916AE /* XCTest+Mocker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1542BFFDB97400FB186A710326CF28BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mocker;
+			target = 04AFC708359363290935C681A1CE226D /* Mocker */;
+			targetProxy = 459DFE83242AD80CBE3446048D2C77A4 /* PBXContainerItemProxy */;
+		};
+		BF994C5FE939DD288E1C655DBFE01159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EliStore";
+			target = 285FD98F10B4826BCFCFC90A7281AE34 /* Pods-EliStore */;
+			targetProxy = E618A1D7D39E39D04172B7BE95AC945B /* PBXContainerItemProxy */;
+		};
+		F98BB8F523BBAEFA970E4D1986F08228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mocker;
+			target = 04AFC708359363290935C681A1CE226D /* Mocker */;
+			targetProxy = B82BB3013C619318463704FD6820F8A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1176EB6FBD0D9B1182E88FDA076FA733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C944355E23D74CC466BC6E3E681A8436 /* Mocker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mocker/Mocker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mocker/Mocker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mocker/Mocker.modulemap";
+				PRODUCT_MODULE_NAME = Mocker;
+				PRODUCT_NAME = Mocker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4FA16352AA7903107EFC6BF9A03A9ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0EA6FFE3AF9DC900060F75CC336E0C /* Pods-EliStore-EliStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliStore-EliStoreUITests/Pods-EliStore-EliStoreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliStore-EliStoreUITests/Pods-EliStore-EliStoreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BC27F711AB87C88F55A2B8BE35034A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A15BE38B78E4F169EA838565D832656 /* Mocker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mocker/Mocker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mocker/Mocker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Mocker/Mocker.modulemap";
+				PRODUCT_MODULE_NAME = Mocker;
+				PRODUCT_NAME = Mocker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		976D79A52E986E08025BECDC9BD91904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5395943AACF915D332164BBB7FA00A3A /* Pods-EliStore-EliStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliStore-EliStoreUITests/Pods-EliStore-EliStoreUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliStore-EliStoreUITests/Pods-EliStore-EliStoreUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99FA43297E7113A2C28B18059B83AD55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649DE60156E6A0F7D9E649F2E856AC8A /* Pods-EliStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliStoreTests/Pods-EliStoreTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliStoreTests/Pods-EliStoreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2D4A74168F95CA8BE874616161919C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F5387F65ACB077CF65FA314C1DC7CC /* Pods-EliStore.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliStore/Pods-EliStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliStore/Pods-EliStore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2BDCB8E4A6B74D0297EE0AB9A5DF5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593263179E0742601AA3DD0F1BBE0B4A /* Pods-EliStore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliStore/Pods-EliStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliStore/Pods-EliStore.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE3E6790E9B609E180B9A2A1036F9C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A4CE4E700E81F3416D978EE3C987B8 /* Pods-EliStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EliStoreTests/Pods-EliStoreTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EliStoreTests/Pods-EliStoreTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51982799162A39569932DC13305E5AEB /* Build configuration list for PBXNativeTarget "Pods-EliStore-EliStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA16352AA7903107EFC6BF9A03A9ED8 /* Debug */,
+				976D79A52E986E08025BECDC9BD91904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76735CC5CAC3BF664111A02587CA234B /* Build configuration list for PBXNativeTarget "Pods-EliStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BDCB8E4A6B74D0297EE0AB9A5DF5FD /* Debug */,
+				A2D4A74168F95CA8BE874616161919C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2CA30C4467D88A61D2B427F7EF2A95 /* Build configuration list for PBXNativeTarget "Pods-EliStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FA43297E7113A2C28B18059B83AD55 /* Debug */,
+				DE3E6790E9B609E180B9A2A1036F9C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8359028EE17557014B28BC1899BACC2A /* Build configuration list for PBXNativeTarget "Mocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1176EB6FBD0D9B1182E88FDA076FA733 /* Debug */,
+				7BC27F711AB87C88F55A2B8BE35034A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

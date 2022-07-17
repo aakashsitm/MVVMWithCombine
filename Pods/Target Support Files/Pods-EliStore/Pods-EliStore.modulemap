@@ -1,0 +1,6 @@
+framework module Pods_EliStore {
+  umbrella header "Pods-EliStore-umbrella.h"
+
+  export *
+  module * { export * }
+}
